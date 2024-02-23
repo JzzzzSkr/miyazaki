@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# This website is designed as an introduction to Miyazaki's cartoons. It incorporates a variety of technologies such as React Router, ReactDOM, CSS Grid and Flexbox, media queries, and Bootstrap, ensuring a fully responsive design for a seamless viewing experience across mobile devices. And The burger menu section is the most hardest section in this app. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## project link is here  ====>  https://jzzzzskr.github.io/miyazaki/
 
-## Available Scripts
+## home page 
 
-In the project directory, you can run:
+# website 
+<img width="1440" alt="Screenshot 2024-02-23 at 22 36 27" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/9c7bdd14-7da9-4059-916c-e0c9cad40368">
 
-### `npm start`
+# mobile 
+<img width="437" alt="Screenshot 2024-02-23 at 22 37 21" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/a15daf45-fe09-40d6-befe-1efdc4489251">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## burger menu (display in mobile only)
+<img width="438" alt="Screenshot 2024-02-23 at 22 38 00" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/87fffa2d-022c-41da-8e55-8cac1644d4e0">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## recommend list (hover and pop out)
+<img width="1440" alt="Screenshot 2024-02-23 at 22 41 18" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/b7d43a9b-023a-458e-802f-57555ed48592">
 
-### `npm test`
+## Character analyze and ontact page 
+<img width="1440" alt="Screenshot 2024-02-23 at 22 41 39" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/904ded21-ede5-44a6-9598-19957950c07b">
+<img width="1440" alt="Screenshot 2024-02-23 at 22 41 56" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/4c73323d-7896-40f8-a98c-212ec957271d">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## login (click logo will back to home)
+<img width="1440" alt="Screenshot 2024-02-23 at 22 42 16" src="https://github.com/JzzzzSkr/miyazaki/assets/126542020/a2475950-6f84-40df-9c71-d72c50e438c3">
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
