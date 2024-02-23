@@ -1,0 +1,41 @@
+.momentWrapper {
+  margin-top: 3em;
+  // width: 350px;
+  // margin-bottom: 10em;
+
+  .subtitle {
+    color: #353535;
+    font-size: 30px;
+    margin-bottom: 0.5em;
+  }
+
+  .momentBox{
+    overflow: auto;
+    background-color: white;
+    ul{
+      white-space: nowrap;
+      li{
+        display: inline-block;
+        cursor: pointer;
+        transition: 0.7s;
+        // margin-right: 1em;
+        img{
+          width: 18rem;
+        }
+
+        &:hover{
+          // 颜色变浅
+          filter: brightness(80%);
+          transition: 0.7s;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .momentWrapper {
+    margin: 2em;
+  }
+}

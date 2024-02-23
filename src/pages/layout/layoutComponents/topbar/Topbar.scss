@@ -1,0 +1,144 @@
+.topbar {
+  height: 4em;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  .topbarWrapper {
+    display: flex;
+    height: 100%;
+
+    .logo {
+      flex: 3;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      align-items: center;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .navbar {
+      flex: 6;
+      // background-color: aqua;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      ul {
+        list-style-type: none;
+        // background-color: hsl(0, 0%, 25%);
+        padding: 0px;
+        margin: 0px;
+        // overflow: hidden;
+
+        li {
+          display: inline-block;
+
+          // float: left;
+
+          a {
+            text-decoration: none;
+            padding: 15px 25px;
+            display: block;
+            text-align: center;
+            color: #3e95b0;
+            font-size: 18px;
+
+            &:hover {
+              color: #0d5d73;
+            }
+          }
+        }
+
+        .drop {
+          position: relative;
+
+          .rec{
+            // cursor: ;
+            color: #3e95b0;
+            font-size: 18px;
+            padding: 10px 25px;
+            &:hover{
+              color: #0d5d73;
+            }
+          }
+
+          .dropdown {
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 40px;
+            opacity: 0; // 开始时不透明度设置为0
+            visibility: hidden; // 开始时设置为不可见
+            transform: translateY(-20px); // 开始时向上移动一点，增加动画效果
+            transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s; // 设置过渡效果
+            background-color: rgba(255, 255, 255, 0.8);
+
+            li {
+              display: block;
+              cursor: pointer;
+
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+
+          &:hover > .dropdown {
+            opacity: 1; // 悬停时不透明度设置为1，使其完全不透明
+            visibility: visible; // 悬停时设置为可见
+            transform: translateY(0); // 悬停时恢复到原位置
+          }
+        }
+      }
+    }
+
+    .sideBar {
+      flex: 1;
+      display: none;
+      
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      line-height: 4em;
+
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .topbar {
+    // overflow: hidden;
+    .topbarWrapper {
+      .logo {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .topbar {
+    // overflow: hidden;
+    .topbarWrapper {
+
+      .navbar{
+        display: none;
+      }
+
+      .logo {
+        display: inline-block;
+      }
+
+      .sideBar{
+        display: flex;
+      }
+
+    }
+  }
+}

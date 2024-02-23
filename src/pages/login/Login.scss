@@ -1,0 +1,53 @@
+.loginWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../../../public/assets/login-bg.jpeg") no-repeat center
+    center;
+  background-size: cover;
+  z-index: -1;
+
+  .logo {
+    justify-content: left;
+    height: 3em;
+    img {
+      height: 100%;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #3e95b0;
+
+    form {
+      border-radius: 30px !important;
+      padding: 2em;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.8);
+      width: 400px;
+      margin-left: 1em;
+      margin-right: 1em;
+
+      .my-btn {
+        text-align: center;
+      }
+
+      button {
+        background-color: #3e95b0;
+        /* border-radius: 30px; */
+        font-size: large;
+        margin-bottom: 10px;
+        &:hover {
+          background-color: #0d5d73;
+        }
+        border: 1px solid white;
+      }
+    }
+  }
+}

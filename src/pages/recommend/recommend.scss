@@ -1,0 +1,118 @@
+.recommendWrapper {
+  margin: 0 auto;
+  margin-bottom: 2em;
+
+  .top {
+    margin-bottom: 2em;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .down {
+    // margin-bottom: 1em;
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    display: flex;
+    // justify-content: space-between;
+
+    .left {
+      flex: 8;
+      background-color: white;
+      padding: 0 1em;
+      margin-right: 1em;
+
+      .subtitle {
+        margin: 2em 1em 1em 0;
+        // color: #3e95b0;
+        font-size: 20px;
+      }
+
+      .leftContent {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        // padding: 1em;
+
+        .leftImg {
+          flex: 2;
+          margin-right: 1em;
+        }
+        .rightContent {
+          flex: 7;
+
+          .content {
+            margin-top: 2em;
+            p > strong {
+              color: #3e95b0;
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      flex: 1.5;
+      padding: 1em;
+      background-color: white;
+      display: flex;
+      justify-content: left;
+
+      ul {
+        .character {
+          display: flex;
+          width: 5em;
+          //   background-color: white;
+          img {
+            flex: 1;
+            margin-right: 1em;
+            margin-bottom: 1em;
+            transition: 0.7s;
+            cursor: pointer;
+            &:hover {
+              border-radius: 50%;
+              transition: 0.7s;
+            }
+          }
+
+          span {
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .recommendWrapper .down .right ul .character span {
+    display: none;
+  }
+
+  .recommendWrapper .down .right {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .recommendWrapper .top {
+    margin-bottom: 1em;
+  }
+
+  .recommendWrapper .down .right {
+    display: none;
+  }
+  .recommendWrapper .down {
+    margin: 0 auto;
+  }
+  .recommendWrapper .down .left {
+    margin: 0;
+  }
+
+  .recommendWrapper .down .left .subtitle {
+    margin: 1em 0;
+  }
+}

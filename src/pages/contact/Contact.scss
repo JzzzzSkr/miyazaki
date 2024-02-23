@@ -1,0 +1,47 @@
+.conatctWrapper {
+  img {
+    margin: 0 auto;
+  }
+  .formSetion {
+    position: relative;
+    background-image: url("../../../public/assets/bglinkus2.jpg");
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height of the section; adjust as needed */
+    max-width: 60em;
+    margin: 2em auto;
+    border-radius: 30px;
+
+    .contact-form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%; /* Adjust based on your preference */
+      background: rgba(
+        255,
+        255,
+        255,
+        0.8
+      ); /* Optional: Add a semi-transparent background */
+      padding: 20px;
+      border-radius: 8px;
+      color: #3e95b0;
+
+      .col-12 {
+        text-align: center;
+      }
+
+      button {
+        background-color: #3e95b0;
+        /* border-radius: 30px; */
+        font-size: large;
+        margin-bottom: 10px;
+        &:hover {
+          background-color: #0d5d73;
+        }
+        border: 1px solid white;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.sideBar {
+  position: relative;
+}
+
+.sidebar {
+  position: fixed; /* 使用 fixed 而不是 absolute 来确保侧边栏相对于视口定位 */
+  top: 0;
+  right: 0; /* 从右侧边缘开始 */
+  width: 150px; /* 侧边栏宽度 */
+  height: auto; /* 侧边栏高度填满整个视口高度 */
+  background-color: rgba(255, 255, 255, 1);
+  // border: 1px solid #c7c7c7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 添加阴影 */
+
+  //   border-radius: 5%;
+  transition: transform 0.7s ease; /* 使用 transform 来平滑过渡 */
+  transform: translateX(100%); /* 默认情况下，将侧边栏完全隐藏在右侧 */
+}
+
+.active {
+  transform: translateX(0); /* 当侧边栏激活时，移动回原位 */
+}
+
+.sidebar ul li {
+  color: #3e95b0;
+  font-size: 18px;
+//   padding: 10px 15px; /* 增加一些内边距以改善触摸交互 */
+}
+
+.recommendList {
+  position: fixed; /* 使用 fixed 而不是 absolute 来确保侧边栏相对于视口定位 */
+  top: 0;
+  right: 0; /* 从右侧边缘开始 */
+  width: 150px; /* 侧边栏宽度 */
+  height: auto; /* 侧边栏高度填满整个视口高度 */
+  background-color: rgba(255, 255, 255, 0.9);
+  //   border-radius: 5%;
+  transition: transform 0.7s ease; /* 使用 transform 来平滑过渡 */
+  transform: translateX(100%) translateY(32%);
+
+  ul {
+    li{
+        a{
+            font-size: 15px;
+            color: #3e95b0;
+            text-decoration: none;
+        }
+    }
+  }
+}
+
+.recommendActive {
+  transform: translateX(-99%) translateY(32%);
+  
+}

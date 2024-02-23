@@ -1,0 +1,69 @@
+.quotesWrapper {
+  margin-top: 3em;
+
+  .subtitle {
+    color: #353535;
+    font-size: 30px;
+    margin-bottom: 0.5em;
+  }
+  .quotesBox {
+    max-width: 70em;
+    background-color: white;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+
+    .left {
+      // height: auto;
+      img {
+        max-width: 50%;
+      }
+    }
+
+    .right {
+      // margin-left: 5em;
+      ul {
+        margin: 1em;
+
+        li {
+          margin-bottom: 2em;
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .card-text {
+            color: #a69a9d;
+          }
+
+          .author {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding-right: 1em;
+            margin-top: 1em;
+
+            span {
+              color: #7b7474;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .quotesWrapper .quotesBox .left img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quotesWrapper {
+    margin: 2em 2em 0;
+  }
+}

@@ -1,0 +1,27 @@
+.aboutWrapper {
+  margin: 3em auto;
+  background-color: white;
+  max-width: 80em;
+  padding: 2em;
+  border-radius: 30px;
+
+  .up {
+    margin-bottom: 2em;
+  }
+}
+
+p {
+  color: #8a8a8a;
+
+  strong {
+    color: #444444;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aboutWrapper {
+    margin: 1em;
+    padding: 1em;
+  }
+}
